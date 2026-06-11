@@ -9,10 +9,10 @@ A data analytics project built on **World Bank WDI data** that analyses economic
 ```
 economic-dev-analytics/
 │
-├── WDI_data.csv                              # World Bank WDI raw data (your download)
-├── Economic_Development_Polars.ipynb    # Main notebook (Polars only)
-├── dashboard.py                         # Streamlit interactive dashboard
-├── economic_dashboard.png               # Auto-saved summary dashboard image
+├── WDI_data.csv                                            # World Bank WDI raw data (your download)
+├── Economic_Development_Analytics_Polars_Notebook.ipynb    # Main notebook (Polars only)
+├── dashboard.py                                            # Streamlit interactive dashboard
+├── economic_dashboard.png                                  # Auto-saved summary dashboard image
 └── GUIDE_ME.md
 ```
 
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 ### 3. Run the notebook
 
 ```bash
-jupyter notebook Economic_Development_Polars.ipynb
+jupyter notebook Economic_Development_Analytics_Polars_Notebook.ipynb
 ```
 
 Run cells top to bottom — each cell depends on the one above it.
