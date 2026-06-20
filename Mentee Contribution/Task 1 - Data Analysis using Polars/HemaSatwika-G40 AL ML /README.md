@@ -1,1 +1,0 @@
-World papulation intelligences paltfrom
